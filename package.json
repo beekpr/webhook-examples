@@ -1,0 +1,20 @@
+{
+  "name": "@beekeeper/webhook-examples",
+  "version": "0.1.0",
+  "description": "A project show casing Beekeeper webhooks",
+  "main": "lib/index.js",
+  "repository": "git@github.com:beekpr/webhook-examples.git",
+  "author": "Florian Dreschner <code@dreschner.eu>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc",
+    "deploy": "yarn run compile && sls deploy"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.46",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "beekeeper": "^0.4.1"
+  }
+}
