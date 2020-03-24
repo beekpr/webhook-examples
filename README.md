@@ -8,7 +8,8 @@ A project show casing Beekeeper Webhooks usage in multiple domains. More details
 
 # Setup
 1. To install dependencies, run:  ``yarn``
-2. Then, you can deploy it like this: ``yarn deploy``
+2. Setup environment variables in `serverless.yaml`
+3. Then, you can deploy it like this: ``yarn deploy``
 
 ## Serverless
 For more information on Serverless please see https://serverless.com/framework/docs/
